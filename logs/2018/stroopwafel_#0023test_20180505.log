@@ -1,0 +1,27 @@
+[Stroopwafel:#test] <java> .mycmd
+[Stroopwafel:#test] <java> .info
+[Stroopwafel:#test] <java> Stroopwafel, info
+[Stroopwafel:#test] <java> Stroopwafel, join #testops
+[Stroopwafel:#test] <GewoonYorick> It's not here atm, and use join #channel:password
+[Stroopwafel:#test] <java> Stroopwafel, join #testops:infero
+[Stroopwafel:#test] <java> hmmm it didn't like that
+[Stroopwafel:#test] <GewoonYorick> *facepalm
+[Stroopwafel:#test] <java> Stroopwafel, join #testops:infero
+[Stroopwafel:#test] <GewoonYorick> Maybe you should spread channel passwords in public channels.. ;)
+[Stroopwafel:#test] <GewoonYorick> It's probably only a bouncer you are talking to
+[Stroopwafel:#test] <GewoonYorick> .join #testops
+[Stroopwafel:#test] <GewoonYorick> .part #youth 
+[Stroopwafel:#test] <java> no it's telling me stuff
+[Stroopwafel:#test] <java> Stroopwafel, part #youth
+[Stroopwafel:#test] <GewoonYorick> I noticed
+[Stroopwafel:#test] <java> :D
+[Stroopwafel:#test] <GewoonYorick> Twice doesn't do something
+[Stroopwafel:#test] <GewoonYorick> .part #test valid reason
+[Stroopwafel:#test] -!- Stroopwafel [~GwnYServ@user.scoutlink.net] has left (#test)
+[Stroopwafel:#test] <GewoonYorick> It also listens in pm btw
+[Stroopwafel:#test] <java> ok
+[Stroopwafel:#test] <java> it didn't seem to like .part the other day
+[Stroopwafel:#test] <GewoonYorick> Letting it join via bouncer loads him quicker as scoutlink takes a while to connect to
+[Stroopwafel:#test] <java> ah
+[Stroopwafel:#test] <GewoonYorick> Dunno if you have any scripts for it?
+[Stroopwafel:#test] <java> nope 
