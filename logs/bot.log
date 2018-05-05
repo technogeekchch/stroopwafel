@@ -7263,3 +7263,664 @@ KeyError: 'chan'
 [2018-05-05][09:45:13] [INFO] [Stroopwafel:#youth-team] -!- mode/#youth-team [+h Gforce] by ChanServ
 [2018-05-05][09:46:01] [INFO] [Stroopwafel:#youth-team] <GewoonYorick> hey Gforce :)
 [2018-05-05][09:46:23] [INFO] [Stroopwafel:#youth-team] <Gforce> Hi Yorick
+[2018-05-05][10:01:22] [INFO] Starting CloudBot.
+[2018-05-05][10:01:22] [INFO] [Stroopwafel|permissions] Created permission manager for Stroopwafel.
+[2018-05-05][10:01:22] [INFO] [Stroopwafel|permissions] Reloading permissions for Stroopwafel.
+[2018-05-05][10:01:22] [INFO] Loaded command whois from whois.py
+[2018-05-05][10:01:22] [INFO] Loaded irc raw on_join (PART) from core_tracker.py
+[2018-05-05][10:01:22] [INFO] Loaded irc raw on_kick (KICK) from core_tracker.py
+[2018-05-05][10:01:22] [INFO] Loaded irc raw on_nick (NICK) from core_tracker.py
+[2018-05-05][10:01:22] [INFO] Loaded command flushlog from log.py
+[2018-05-05][10:01:22] [INFO] Loaded irc raw log_raw (*) from log.py
+[2018-05-05][10:01:22] [INFO] Loaded irc raw log (*) from log.py
+[2018-05-05][10:01:22] [INFO] Loaded irc raw console_log (*) from log.py
+[2018-05-05][10:01:22] [INFO] Loaded command quiet from admin_channel.py
+[2018-05-05][10:01:22] [INFO] Loaded command mute from admin_channel.py
+[2018-05-05][10:01:22] [INFO] Loaded command deop from admin_channel.py
+[2018-05-05][10:01:22] [INFO] Loaded command unlock from admin_channel.py
+[2018-05-05][10:01:22] [INFO] Loaded command topic from admin_channel.py
+[2018-05-05][10:01:22] [INFO] Loaded command voice from admin_channel.py
+[2018-05-05][10:01:22] [INFO] Loaded command lock from admin_channel.py
+[2018-05-05][10:01:22] [INFO] Loaded command ban from admin_channel.py
+[2018-05-05][10:01:22] [INFO] Loaded command unmute from admin_channel.py
+[2018-05-05][10:01:22] [INFO] Loaded command devoice from admin_channel.py
+[2018-05-05][10:01:22] [INFO] Loaded command unquiet from admin_channel.py
+[2018-05-05][10:01:22] [INFO] Loaded command op from admin_channel.py
+[2018-05-05][10:01:22] [INFO] Loaded command remove from admin_channel.py
+[2018-05-05][10:01:22] [INFO] Loaded command kick from admin_channel.py
+[2018-05-05][10:01:22] [INFO] Loaded command unban from admin_channel.py
+[2018-05-05][10:01:22] [INFO] Loaded command ping from ping.py
+[2018-05-05][10:01:22] [INFO] Loaded command info/information/botinfo from basics.py
+[2018-05-05][10:01:22] [INFO] Loaded command help/bothelp from basics.py
+[2018-05-05][10:01:22] [INFO] Registering tables for quote
+[2018-05-05][10:01:22] [INFO] Loaded event ctcp_time (EventType.other) from core_ctcp.py
+[2018-05-05][10:01:22] [INFO] Loaded event ctcp_version (EventType.other) from core_ctcp.py
+[2018-05-05][10:01:22] [INFO] Loaded event ctcp_ping (EventType.other) from core_ctcp.py
+[2018-05-05][10:01:22] [INFO] Loaded command seen from history.py
+[2018-05-05][10:01:22] [INFO] Loaded command resethistory from history.py
+[2018-05-05][10:01:22] [INFO] Loaded event chat_tracker (EventType.message,EventType.action) from history.py
+[2018-05-05][10:01:22] [INFO] Loaded command system from system.py
+[2018-05-05][10:01:22] [INFO] Loaded command about from system.py
+[2018-05-05][10:01:22] [INFO] Loaded irc raw keep_alive (004) from core_misc.py
+[2018-05-05][10:01:22] [INFO] Loaded irc raw onjoin (004) from core_misc.py
+[2018-05-05][10:01:22] [INFO] Loaded irc raw invite (INVITE) from core_misc.py
+[2018-05-05][10:01:22] [INFO] Registering tables for ignore
+[2018-05-05][10:01:22] [INFO] Loaded command stop/quit from admin_bot.py
+[2018-05-05][10:01:22] [INFO] Loaded command say from admin_bot.py
+[2018-05-05][10:01:22] [INFO] Loaded command adduser from admin_bot.py
+[2018-05-05][10:01:22] [INFO] Loaded command nick from admin_bot.py
+[2018-05-05][10:01:22] [INFO] Loaded command part from admin_bot.py
+[2018-05-05][10:01:22] [INFO] Loaded command cycle from admin_bot.py
+[2018-05-05][10:01:22] [INFO] Loaded command uperms from admin_bot.py
+[2018-05-05][10:01:22] [INFO] Loaded command raw from admin_bot.py
+[2018-05-05][10:01:22] [INFO] Loaded command deluser from admin_bot.py
+[2018-05-05][10:01:22] [INFO] Loaded command join from admin_bot.py
+[2018-05-05][10:01:22] [INFO] Loaded command me/act from admin_bot.py
+[2018-05-05][10:01:22] [INFO] Loaded command gperms from admin_bot.py
+[2018-05-05][10:01:22] [INFO] Loaded command ugroups from admin_bot.py
+[2018-05-05][10:01:22] [INFO] Loaded command restart from admin_bot.py
+[2018-05-05][10:01:22] [INFO] Loaded command groups/listgroups/permgroups from admin_bot.py
+[2018-05-05][10:01:22] [INFO] Loaded command gusers from admin_bot.py
+[2018-05-05][10:01:22] [INFO] Loaded command message/sayto from admin_bot.py
+[2018-05-05][10:01:22] [INFO] Loaded irc raw init_tasks (004) from core_sieve.py
+[2018-05-05][10:01:22] [INFO] Loaded sieve sieve_suite from core_sieve.py
+[2018-05-05][10:01:22] [INFO] Loaded command 8ball/8/eightball from eightball.py
+[2018-05-05][10:01:22] [INFO] Loaded command biscuit from foods.py
+[2018-05-05][10:01:22] [INFO] Loaded command cake from foods.py
+[2018-05-05][10:01:22] [INFO] Loaded command taco from foods.py
+[2018-05-05][10:01:22] [INFO] Loaded command potato from foods.py
+[2018-05-05][10:01:22] [INFO] Loaded command cookie from foods.py
+[2018-05-05][10:01:22] [INFO] Loaded command sandwich from foods.py
+[2018-05-05][10:01:22] [INFO] Loaded command q/quote from quote.py
+[2018-05-05][10:01:22] [INFO] Loaded command length from utility.py
+[2018-05-05][10:01:22] [INFO] Loaded command leet from utility.py
+[2018-05-05][10:01:22] [INFO] Loaded command base64 from utility.py
+[2018-05-05][10:01:22] [INFO] Loaded command wrainbow from utility.py
+[2018-05-05][10:01:22] [INFO] Loaded command rainbow from utility.py
+[2018-05-05][10:01:22] [INFO] Loaded command escape from utility.py
+[2018-05-05][10:01:22] [INFO] Loaded command debase64/unbase64 from utility.py
+[2018-05-05][10:01:22] [INFO] Loaded command color_parse from utility.py
+[2018-05-05][10:01:22] [INFO] Loaded command unescape from utility.py
+[2018-05-05][10:01:22] [INFO] Loaded command isbase64/checkbase64 from utility.py
+[2018-05-05][10:01:22] [INFO] Loaded command munge from utility.py
+[2018-05-05][10:01:22] [INFO] Loaded command upper from utility.py
+[2018-05-05][10:01:22] [INFO] Loaded command qrcode/qr from utility.py
+[2018-05-05][10:01:22] [INFO] Loaded command titlecase from utility.py
+[2018-05-05][10:01:22] [INFO] Loaded command derpify from utility.py
+[2018-05-05][10:01:22] [INFO] Loaded command rot13 from utility.py
+[2018-05-05][10:01:22] [INFO] Loaded command superscript from utility.py
+[2018-05-05][10:01:22] [INFO] Loaded command usa from utility.py
+[2018-05-05][10:01:22] [INFO] Loaded command lower from utility.py
+[2018-05-05][10:01:22] [INFO] Loaded command swapcase from utility.py
+[2018-05-05][10:01:22] [INFO] Loaded command hash from utility.py
+[2018-05-05][10:01:22] [INFO] Loaded command reverse from utility.py
+[2018-05-05][10:01:22] [INFO] Loaded command capitalize/capitalise from utility.py
+[2018-05-05][10:01:22] [INFO] Loaded command ignore from ignore.py
+[2018-05-05][10:01:22] [INFO] Loaded command global_ignore from ignore.py
+[2018-05-05][10:01:22] [INFO] Loaded command unignore from ignore.py
+[2018-05-05][10:01:22] [INFO] Loaded command global_unignore from ignore.py
+[2018-05-05][10:01:22] [INFO] Loaded sieve ignore_sieve from ignore.py
+[2018-05-05][10:01:22] [INFO] [Stroopwafel] Connecting
+[2018-05-05][10:02:11] [INFO] Starting CloudBot.
+[2018-05-05][10:02:11] [INFO] [Stroopwafel|permissions] Created permission manager for Stroopwafel.
+[2018-05-05][10:02:11] [INFO] [Stroopwafel|permissions] Reloading permissions for Stroopwafel.
+[2018-05-05][10:02:11] [INFO] Loaded command whois from whois.py
+[2018-05-05][10:02:11] [INFO] Loaded irc raw on_join (PART) from core_tracker.py
+[2018-05-05][10:02:11] [INFO] Loaded irc raw on_nick (NICK) from core_tracker.py
+[2018-05-05][10:02:11] [INFO] Loaded irc raw on_kick (KICK) from core_tracker.py
+[2018-05-05][10:02:11] [INFO] Loaded command flushlog from log.py
+[2018-05-05][10:02:11] [INFO] Loaded irc raw log_raw (*) from log.py
+[2018-05-05][10:02:11] [INFO] Loaded irc raw console_log (*) from log.py
+[2018-05-05][10:02:11] [INFO] Loaded irc raw log (*) from log.py
+[2018-05-05][10:02:11] [INFO] Loaded command op from admin_channel.py
+[2018-05-05][10:02:11] [INFO] Loaded command kick from admin_channel.py
+[2018-05-05][10:02:11] [INFO] Loaded command topic from admin_channel.py
+[2018-05-05][10:02:11] [INFO] Loaded command deop from admin_channel.py
+[2018-05-05][10:02:11] [INFO] Loaded command devoice from admin_channel.py
+[2018-05-05][10:02:11] [INFO] Loaded command unmute from admin_channel.py
+[2018-05-05][10:02:11] [INFO] Loaded command lock from admin_channel.py
+[2018-05-05][10:02:11] [INFO] Loaded command unlock from admin_channel.py
+[2018-05-05][10:02:11] [INFO] Loaded command voice from admin_channel.py
+[2018-05-05][10:02:11] [INFO] Loaded command mute from admin_channel.py
+[2018-05-05][10:02:11] [INFO] Loaded command unban from admin_channel.py
+[2018-05-05][10:02:11] [INFO] Loaded command remove from admin_channel.py
+[2018-05-05][10:02:11] [INFO] Loaded command ban from admin_channel.py
+[2018-05-05][10:02:11] [INFO] Loaded command quiet from admin_channel.py
+[2018-05-05][10:02:11] [INFO] Loaded command unquiet from admin_channel.py
+[2018-05-05][10:02:11] [INFO] Loaded command ping from ping.py
+[2018-05-05][10:02:11] [INFO] Loaded command info/botinfo/information from basics.py
+[2018-05-05][10:02:11] [INFO] Loaded command help/bothelp from basics.py
+[2018-05-05][10:02:11] [INFO] Registering tables for quote
+[2018-05-05][10:02:11] [INFO] Loaded event ctcp_version (EventType.other) from core_ctcp.py
+[2018-05-05][10:02:11] [INFO] Loaded event ctcp_time (EventType.other) from core_ctcp.py
+[2018-05-05][10:02:11] [INFO] Loaded event ctcp_ping (EventType.other) from core_ctcp.py
+[2018-05-05][10:02:11] [INFO] Loaded command seen from history.py
+[2018-05-05][10:02:11] [INFO] Loaded command resethistory from history.py
+[2018-05-05][10:02:11] [INFO] Loaded event chat_tracker (EventType.message,EventType.action) from history.py
+[2018-05-05][10:02:11] [INFO] Loaded command system from system.py
+[2018-05-05][10:02:11] [INFO] Loaded command about from system.py
+[2018-05-05][10:02:11] [INFO] Loaded irc raw invite (INVITE) from core_misc.py
+[2018-05-05][10:02:11] [INFO] Loaded irc raw onjoin (004) from core_misc.py
+[2018-05-05][10:02:11] [INFO] Loaded irc raw keep_alive (004) from core_misc.py
+[2018-05-05][10:02:11] [INFO] Registering tables for ignore
+[2018-05-05][10:02:12] [INFO] Loaded command say from admin_bot.py
+[2018-05-05][10:02:12] [INFO] Loaded command message/sayto from admin_bot.py
+[2018-05-05][10:02:12] [INFO] Loaded command join from admin_bot.py
+[2018-05-05][10:02:12] [INFO] Loaded command part from admin_bot.py
+[2018-05-05][10:02:12] [INFO] Loaded command nick from admin_bot.py
+[2018-05-05][10:02:12] [INFO] Loaded command stop/quit from admin_bot.py
+[2018-05-05][10:02:12] [INFO] Loaded command cycle from admin_bot.py
+[2018-05-05][10:02:12] [INFO] Loaded command restart from admin_bot.py
+[2018-05-05][10:02:12] [INFO] Loaded command ugroups from admin_bot.py
+[2018-05-05][10:02:12] [INFO] Loaded command me/act from admin_bot.py
+[2018-05-05][10:02:12] [INFO] Loaded command uperms from admin_bot.py
+[2018-05-05][10:02:12] [INFO] Loaded command gperms from admin_bot.py
+[2018-05-05][10:02:12] [INFO] Loaded command deluser from admin_bot.py
+[2018-05-05][10:02:12] [INFO] Loaded command raw from admin_bot.py
+[2018-05-05][10:02:12] [INFO] Loaded command gusers from admin_bot.py
+[2018-05-05][10:02:12] [INFO] Loaded command groups/listgroups/permgroups from admin_bot.py
+[2018-05-05][10:02:12] [INFO] Loaded command adduser from admin_bot.py
+[2018-05-05][10:02:12] [INFO] Loaded irc raw init_tasks (004) from core_sieve.py
+[2018-05-05][10:02:12] [INFO] Loaded sieve sieve_suite from core_sieve.py
+[2018-05-05][10:02:12] [INFO] Loaded command 8ball/8/eightball from eightball.py
+[2018-05-05][10:02:12] [INFO] Loaded command potato from foods.py
+[2018-05-05][10:02:12] [INFO] Loaded command cake from foods.py
+[2018-05-05][10:02:12] [INFO] Loaded command cookie from foods.py
+[2018-05-05][10:02:12] [INFO] Loaded command sandwich from foods.py
+[2018-05-05][10:02:12] [INFO] Loaded command biscuit from foods.py
+[2018-05-05][10:02:12] [INFO] Loaded command taco from foods.py
+[2018-05-05][10:02:12] [INFO] Loaded command q/quote from quote.py
+[2018-05-05][10:02:12] [INFO] Loaded command length from utility.py
+[2018-05-05][10:02:12] [INFO] Loaded command color_parse from utility.py
+[2018-05-05][10:02:12] [INFO] Loaded command superscript from utility.py
+[2018-05-05][10:02:12] [INFO] Loaded command rot13 from utility.py
+[2018-05-05][10:02:12] [INFO] Loaded command base64 from utility.py
+[2018-05-05][10:02:12] [INFO] Loaded command usa from utility.py
+[2018-05-05][10:02:12] [INFO] Loaded command munge from utility.py
+[2018-05-05][10:02:12] [INFO] Loaded command rainbow from utility.py
+[2018-05-05][10:02:12] [INFO] Loaded command derpify from utility.py
+[2018-05-05][10:02:12] [INFO] Loaded command qrcode/qr from utility.py
+[2018-05-05][10:02:12] [INFO] Loaded command unescape from utility.py
+[2018-05-05][10:02:12] [INFO] Loaded command escape from utility.py
+[2018-05-05][10:02:12] [INFO] Loaded command capitalize/capitalise from utility.py
+[2018-05-05][10:02:12] [INFO] Loaded command leet from utility.py
+[2018-05-05][10:02:12] [INFO] Loaded command titlecase from utility.py
+[2018-05-05][10:02:12] [INFO] Loaded command reverse from utility.py
+[2018-05-05][10:02:12] [INFO] Loaded command debase64/unbase64 from utility.py
+[2018-05-05][10:02:12] [INFO] Loaded command swapcase from utility.py
+[2018-05-05][10:02:12] [INFO] Loaded command hash from utility.py
+[2018-05-05][10:02:12] [INFO] Loaded command wrainbow from utility.py
+[2018-05-05][10:02:12] [INFO] Loaded command isbase64/checkbase64 from utility.py
+[2018-05-05][10:02:12] [INFO] Loaded command lower from utility.py
+[2018-05-05][10:02:12] [INFO] Loaded command upper from utility.py
+[2018-05-05][10:02:12] [INFO] Loaded command ignore from ignore.py
+[2018-05-05][10:02:12] [INFO] Loaded command global_ignore from ignore.py
+[2018-05-05][10:02:12] [INFO] Loaded command global_unignore from ignore.py
+[2018-05-05][10:02:12] [INFO] Loaded command unignore from ignore.py
+[2018-05-05][10:02:12] [INFO] Loaded sieve ignore_sieve from ignore.py
+[2018-05-05][10:02:12] [INFO] [Stroopwafel] Connecting
+[2018-05-05][10:02:40] [INFO] Starting CloudBot.
+[2018-05-05][10:02:40] [INFO] [Stroopwafel|permissions] Created permission manager for Stroopwafel.
+[2018-05-05][10:02:40] [INFO] [Stroopwafel|permissions] Reloading permissions for Stroopwafel.
+[2018-05-05][10:02:40] [INFO] Loaded command whois from whois.py
+[2018-05-05][10:02:40] [INFO] Loaded irc raw on_join (PART) from core_tracker.py
+[2018-05-05][10:02:40] [INFO] Loaded irc raw on_kick (KICK) from core_tracker.py
+[2018-05-05][10:02:40] [INFO] Loaded irc raw on_nick (NICK) from core_tracker.py
+[2018-05-05][10:02:40] [INFO] Loaded command flushlog from log.py
+[2018-05-05][10:02:40] [INFO] Loaded irc raw console_log (*) from log.py
+[2018-05-05][10:02:40] [INFO] Loaded irc raw log (*) from log.py
+[2018-05-05][10:02:40] [INFO] Loaded irc raw log_raw (*) from log.py
+[2018-05-05][10:02:40] [INFO] Loaded command unmute from admin_channel.py
+[2018-05-05][10:02:40] [INFO] Loaded command mute from admin_channel.py
+[2018-05-05][10:02:40] [INFO] Loaded command unquiet from admin_channel.py
+[2018-05-05][10:02:40] [INFO] Loaded command devoice from admin_channel.py
+[2018-05-05][10:02:40] [INFO] Loaded command unlock from admin_channel.py
+[2018-05-05][10:02:40] [INFO] Loaded command ban from admin_channel.py
+[2018-05-05][10:02:40] [INFO] Loaded command lock from admin_channel.py
+[2018-05-05][10:02:40] [INFO] Loaded command op from admin_channel.py
+[2018-05-05][10:02:40] [INFO] Loaded command topic from admin_channel.py
+[2018-05-05][10:02:40] [INFO] Loaded command deop from admin_channel.py
+[2018-05-05][10:02:40] [INFO] Loaded command kick from admin_channel.py
+[2018-05-05][10:02:40] [INFO] Loaded command voice from admin_channel.py
+[2018-05-05][10:02:40] [INFO] Loaded command unban from admin_channel.py
+[2018-05-05][10:02:40] [INFO] Loaded command remove from admin_channel.py
+[2018-05-05][10:02:40] [INFO] Loaded command quiet from admin_channel.py
+[2018-05-05][10:02:40] [INFO] Loaded command ping from ping.py
+[2018-05-05][10:02:41] [INFO] Loaded command help/bothelp from basics.py
+[2018-05-05][10:02:41] [INFO] Loaded command info/botinfo/information from basics.py
+[2018-05-05][10:02:41] [INFO] Registering tables for quote
+[2018-05-05][10:02:41] [INFO] Loaded event ctcp_version (EventType.other) from core_ctcp.py
+[2018-05-05][10:02:41] [INFO] Loaded event ctcp_time (EventType.other) from core_ctcp.py
+[2018-05-05][10:02:41] [INFO] Loaded event ctcp_ping (EventType.other) from core_ctcp.py
+[2018-05-05][10:02:41] [INFO] Loaded command seen from history.py
+[2018-05-05][10:02:41] [INFO] Loaded command resethistory from history.py
+[2018-05-05][10:02:41] [INFO] Loaded event chat_tracker (EventType.message,EventType.action) from history.py
+[2018-05-05][10:02:41] [INFO] Loaded command system from system.py
+[2018-05-05][10:02:41] [INFO] Loaded command about from system.py
+[2018-05-05][10:02:41] [INFO] Loaded irc raw keep_alive (004) from core_misc.py
+[2018-05-05][10:02:41] [INFO] Loaded irc raw invite (INVITE) from core_misc.py
+[2018-05-05][10:02:41] [INFO] Loaded irc raw onjoin (004) from core_misc.py
+[2018-05-05][10:02:41] [INFO] Registering tables for ignore
+[2018-05-05][10:02:41] [INFO] Loaded command nick from admin_bot.py
+[2018-05-05][10:02:41] [INFO] Loaded command gusers from admin_bot.py
+[2018-05-05][10:02:41] [INFO] Loaded command join from admin_bot.py
+[2018-05-05][10:02:41] [INFO] Loaded command deluser from admin_bot.py
+[2018-05-05][10:02:41] [INFO] Loaded command restart from admin_bot.py
+[2018-05-05][10:02:41] [INFO] Loaded command adduser from admin_bot.py
+[2018-05-05][10:02:41] [INFO] Loaded command stop/quit from admin_bot.py
+[2018-05-05][10:02:41] [INFO] Loaded command part from admin_bot.py
+[2018-05-05][10:02:41] [INFO] Loaded command cycle from admin_bot.py
+[2018-05-05][10:02:41] [INFO] Loaded command groups/permgroups/listgroups from admin_bot.py
+[2018-05-05][10:02:41] [INFO] Loaded command message/sayto from admin_bot.py
+[2018-05-05][10:02:41] [INFO] Loaded command say from admin_bot.py
+[2018-05-05][10:02:41] [INFO] Loaded command raw from admin_bot.py
+[2018-05-05][10:02:41] [INFO] Loaded command gperms from admin_bot.py
+[2018-05-05][10:02:41] [INFO] Loaded command uperms from admin_bot.py
+[2018-05-05][10:02:41] [INFO] Loaded command me/act from admin_bot.py
+[2018-05-05][10:02:41] [INFO] Loaded command ugroups from admin_bot.py
+[2018-05-05][10:02:41] [INFO] Loaded irc raw init_tasks (004) from core_sieve.py
+[2018-05-05][10:02:41] [INFO] Loaded sieve sieve_suite from core_sieve.py
+[2018-05-05][10:02:41] [INFO] Loaded command 8ball/8/eightball from eightball.py
+[2018-05-05][10:02:41] [INFO] Loaded command cookie from foods.py
+[2018-05-05][10:02:41] [INFO] Loaded command cake from foods.py
+[2018-05-05][10:02:41] [INFO] Loaded command potato from foods.py
+[2018-05-05][10:02:41] [INFO] Loaded command sandwich from foods.py
+[2018-05-05][10:02:41] [INFO] Loaded command taco from foods.py
+[2018-05-05][10:02:41] [INFO] Loaded command biscuit from foods.py
+[2018-05-05][10:02:41] [INFO] Loaded command q/quote from quote.py
+[2018-05-05][10:02:41] [INFO] Loaded command base64 from utility.py
+[2018-05-05][10:02:41] [INFO] Loaded command rainbow from utility.py
+[2018-05-05][10:02:41] [INFO] Loaded command superscript from utility.py
+[2018-05-05][10:02:41] [INFO] Loaded command swapcase from utility.py
+[2018-05-05][10:02:41] [INFO] Loaded command reverse from utility.py
+[2018-05-05][10:02:41] [INFO] Loaded command qrcode/qr from utility.py
+[2018-05-05][10:02:41] [INFO] Loaded command leet from utility.py
+[2018-05-05][10:02:41] [INFO] Loaded command escape from utility.py
+[2018-05-05][10:02:41] [INFO] Loaded command capitalize/capitalise from utility.py
+[2018-05-05][10:02:41] [INFO] Loaded command lower from utility.py
+[2018-05-05][10:02:41] [INFO] Loaded command derpify from utility.py
+[2018-05-05][10:02:41] [INFO] Loaded command rot13 from utility.py
+[2018-05-05][10:02:41] [INFO] Loaded command unescape from utility.py
+[2018-05-05][10:02:41] [INFO] Loaded command usa from utility.py
+[2018-05-05][10:02:41] [INFO] Loaded command upper from utility.py
+[2018-05-05][10:02:41] [INFO] Loaded command wrainbow from utility.py
+[2018-05-05][10:02:41] [INFO] Loaded command munge from utility.py
+[2018-05-05][10:02:41] [INFO] Loaded command hash from utility.py
+[2018-05-05][10:02:41] [INFO] Loaded command length from utility.py
+[2018-05-05][10:02:41] [INFO] Loaded command isbase64/checkbase64 from utility.py
+[2018-05-05][10:02:41] [INFO] Loaded command titlecase from utility.py
+[2018-05-05][10:02:41] [INFO] Loaded command color_parse from utility.py
+[2018-05-05][10:02:41] [INFO] Loaded command debase64/unbase64 from utility.py
+[2018-05-05][10:02:41] [INFO] Loaded command global_ignore from ignore.py
+[2018-05-05][10:02:41] [INFO] Loaded command global_unignore from ignore.py
+[2018-05-05][10:02:41] [INFO] Loaded command unignore from ignore.py
+[2018-05-05][10:02:41] [INFO] Loaded command ignore from ignore.py
+[2018-05-05][10:02:41] [INFO] Loaded sieve ignore_sieve from ignore.py
+[2018-05-05][10:02:41] [INFO] [Stroopwafel] Connecting
+[2018-05-05][10:03:15] [INFO] Starting CloudBot.
+[2018-05-05][10:03:15] [INFO] [Stroopwafel|permissions] Created permission manager for Stroopwafel.
+[2018-05-05][10:03:15] [INFO] [Stroopwafel|permissions] Reloading permissions for Stroopwafel.
+[2018-05-05][10:03:16] [INFO] Loaded command whois from whois.py
+[2018-05-05][10:03:16] [INFO] Loaded irc raw on_join (PART) from core_tracker.py
+[2018-05-05][10:03:16] [INFO] Loaded irc raw on_nick (NICK) from core_tracker.py
+[2018-05-05][10:03:16] [INFO] Loaded irc raw on_kick (KICK) from core_tracker.py
+[2018-05-05][10:03:16] [INFO] Loaded command flushlog from log.py
+[2018-05-05][10:03:16] [INFO] Loaded irc raw console_log (*) from log.py
+[2018-05-05][10:03:16] [INFO] Loaded irc raw log_raw (*) from log.py
+[2018-05-05][10:03:16] [INFO] Loaded irc raw log (*) from log.py
+[2018-05-05][10:03:16] [INFO] Loaded command ban from admin_channel.py
+[2018-05-05][10:03:16] [INFO] Loaded command mute from admin_channel.py
+[2018-05-05][10:03:16] [INFO] Loaded command lock from admin_channel.py
+[2018-05-05][10:03:16] [INFO] Loaded command unmute from admin_channel.py
+[2018-05-05][10:03:16] [INFO] Loaded command voice from admin_channel.py
+[2018-05-05][10:03:16] [INFO] Loaded command quiet from admin_channel.py
+[2018-05-05][10:03:16] [INFO] Loaded command op from admin_channel.py
+[2018-05-05][10:03:16] [INFO] Loaded command unlock from admin_channel.py
+[2018-05-05][10:03:16] [INFO] Loaded command unban from admin_channel.py
+[2018-05-05][10:03:16] [INFO] Loaded command unquiet from admin_channel.py
+[2018-05-05][10:03:16] [INFO] Loaded command topic from admin_channel.py
+[2018-05-05][10:03:16] [INFO] Loaded command remove from admin_channel.py
+[2018-05-05][10:03:16] [INFO] Loaded command devoice from admin_channel.py
+[2018-05-05][10:03:16] [INFO] Loaded command kick from admin_channel.py
+[2018-05-05][10:03:16] [INFO] Loaded command deop from admin_channel.py
+[2018-05-05][10:03:16] [INFO] Loaded command ping from ping.py
+[2018-05-05][10:03:16] [INFO] Loaded command help/bothelp from basics.py
+[2018-05-05][10:03:16] [INFO] Loaded command info/information/botinfo from basics.py
+[2018-05-05][10:03:16] [INFO] Registering tables for quote
+[2018-05-05][10:03:16] [INFO] Loaded event ctcp_ping (EventType.other) from core_ctcp.py
+[2018-05-05][10:03:16] [INFO] Loaded event ctcp_time (EventType.other) from core_ctcp.py
+[2018-05-05][10:03:16] [INFO] Loaded event ctcp_version (EventType.other) from core_ctcp.py
+[2018-05-05][10:03:16] [INFO] Loaded command resethistory from history.py
+[2018-05-05][10:03:16] [INFO] Loaded command seen from history.py
+[2018-05-05][10:03:16] [INFO] Loaded event chat_tracker (EventType.action,EventType.message) from history.py
+[2018-05-05][10:03:16] [INFO] Loaded command about from system.py
+[2018-05-05][10:03:16] [INFO] Loaded command system from system.py
+[2018-05-05][10:03:16] [INFO] Loaded irc raw onjoin (004) from core_misc.py
+[2018-05-05][10:03:16] [INFO] Loaded irc raw keep_alive (004) from core_misc.py
+[2018-05-05][10:03:16] [INFO] Loaded irc raw invite (INVITE) from core_misc.py
+[2018-05-05][10:03:16] [INFO] Registering tables for ignore
+[2018-05-05][10:03:16] [INFO] Loaded command restart from admin_bot.py
+[2018-05-05][10:03:16] [INFO] Loaded command uperms from admin_bot.py
+[2018-05-05][10:03:16] [INFO] Loaded command stop/quit from admin_bot.py
+[2018-05-05][10:03:16] [INFO] Loaded command adduser from admin_bot.py
+[2018-05-05][10:03:16] [INFO] Loaded command deluser from admin_bot.py
+[2018-05-05][10:03:16] [INFO] Loaded command join from admin_bot.py
+[2018-05-05][10:03:16] [INFO] Loaded command ugroups from admin_bot.py
+[2018-05-05][10:03:16] [INFO] Loaded command part from admin_bot.py
+[2018-05-05][10:03:16] [INFO] Loaded command groups/permgroups/listgroups from admin_bot.py
+[2018-05-05][10:03:16] [INFO] Loaded command me/act from admin_bot.py
+[2018-05-05][10:03:16] [INFO] Loaded command message/sayto from admin_bot.py
+[2018-05-05][10:03:16] [INFO] Loaded command gperms from admin_bot.py
+[2018-05-05][10:03:16] [INFO] Loaded command say from admin_bot.py
+[2018-05-05][10:03:16] [INFO] Loaded command cycle from admin_bot.py
+[2018-05-05][10:03:16] [INFO] Loaded command nick from admin_bot.py
+[2018-05-05][10:03:16] [INFO] Loaded command gusers from admin_bot.py
+[2018-05-05][10:03:16] [INFO] Loaded command raw from admin_bot.py
+[2018-05-05][10:03:16] [INFO] Loaded irc raw init_tasks (004) from core_sieve.py
+[2018-05-05][10:03:16] [INFO] Loaded sieve sieve_suite from core_sieve.py
+[2018-05-05][10:03:16] [INFO] Loaded command 8ball/8/eightball from eightball.py
+[2018-05-05][10:03:16] [INFO] Loaded command potato from foods.py
+[2018-05-05][10:03:16] [INFO] Loaded command taco from foods.py
+[2018-05-05][10:03:16] [INFO] Loaded command cookie from foods.py
+[2018-05-05][10:03:16] [INFO] Loaded command sandwich from foods.py
+[2018-05-05][10:03:16] [INFO] Loaded command biscuit from foods.py
+[2018-05-05][10:03:16] [INFO] Loaded command cake from foods.py
+[2018-05-05][10:03:16] [INFO] Loaded command q/quote from quote.py
+[2018-05-05][10:03:16] [INFO] Loaded command escape from utility.py
+[2018-05-05][10:03:16] [INFO] Loaded command unescape from utility.py
+[2018-05-05][10:03:16] [INFO] Loaded command isbase64/checkbase64 from utility.py
+[2018-05-05][10:03:16] [INFO] Loaded command superscript from utility.py
+[2018-05-05][10:03:16] [INFO] Loaded command debase64/unbase64 from utility.py
+[2018-05-05][10:03:16] [INFO] Loaded command rot13 from utility.py
+[2018-05-05][10:03:16] [INFO] Loaded command munge from utility.py
+[2018-05-05][10:03:16] [INFO] Loaded command titlecase from utility.py
+[2018-05-05][10:03:16] [INFO] Loaded command derpify from utility.py
+[2018-05-05][10:03:16] [INFO] Loaded command usa from utility.py
+[2018-05-05][10:03:16] [INFO] Loaded command hash from utility.py
+[2018-05-05][10:03:16] [INFO] Loaded command swapcase from utility.py
+[2018-05-05][10:03:16] [INFO] Loaded command upper from utility.py
+[2018-05-05][10:03:16] [INFO] Loaded command length from utility.py
+[2018-05-05][10:03:16] [INFO] Loaded command leet from utility.py
+[2018-05-05][10:03:16] [INFO] Loaded command reverse from utility.py
+[2018-05-05][10:03:16] [INFO] Loaded command qrcode/qr from utility.py
+[2018-05-05][10:03:16] [INFO] Loaded command capitalize/capitalise from utility.py
+[2018-05-05][10:03:16] [INFO] Loaded command wrainbow from utility.py
+[2018-05-05][10:03:16] [INFO] Loaded command rainbow from utility.py
+[2018-05-05][10:03:16] [INFO] Loaded command base64 from utility.py
+[2018-05-05][10:03:16] [INFO] Loaded command color_parse from utility.py
+[2018-05-05][10:03:16] [INFO] Loaded command lower from utility.py
+[2018-05-05][10:03:16] [INFO] Loaded command global_ignore from ignore.py
+[2018-05-05][10:03:16] [INFO] Loaded command global_unignore from ignore.py
+[2018-05-05][10:03:16] [INFO] Loaded command unignore from ignore.py
+[2018-05-05][10:03:16] [INFO] Loaded command ignore from ignore.py
+[2018-05-05][10:03:16] [INFO] Loaded sieve ignore_sieve from ignore.py
+[2018-05-05][10:03:16] [INFO] [Stroopwafel] Connecting
+[2018-05-05][10:03:16] [INFO] [Stroopwafel] >> PASS :stroopwafel/scoutlink:thatbotpassword
+[2018-05-05][10:03:16] [INFO] [Stroopwafel] >> NICK :Stroopwafel
+[2018-05-05][10:03:16] [INFO] [Stroopwafel] >> USER GwnYServ 3 * :CloudBot - https://git.io/CloudBot
+[2018-05-05][10:03:16] [INFO] [Stroopwafel] :elder.scoutlink.net 001 Stroopwafel :Welcome to the ScoutLink IRC Network Stroopwafel!~GwnYServ@35.204.13.186
+[2018-05-05][10:03:16] [INFO] [Stroopwafel|misc] Bot is sending join commands for network.
+[2018-05-05][10:03:16] [INFO] [Stroopwafel|misc] Bot is joining channels for network.
+[2018-05-05][10:03:16] [INFO] [Stroopwafel] >> JOIN #test
+[2018-05-05][10:03:16] [INFO] [Stroopwafel] :elder.scoutlink.net 002 Stroopwafel :Your host is elder.scoutlink.net, running version InspIRCd-2.0
+[2018-05-05][10:03:16] [INFO] [Stroopwafel] :elder.scoutlink.net 003 Stroopwafel :This server was created 00:28:23 Aug 19 2017
+[2018-05-05][10:03:16] [INFO] [Stroopwafel|sieve] Bot is starting ratelimiter cleanup task.
+[2018-05-05][10:03:16] [INFO] [Stroopwafel] :elder.scoutlink.net 004 Stroopwafel elder.scoutlink.net InspIRCd-2.0 BHIRSWchikorswx ABCDFHIJKLMNOPQRSTVYabcefhijklmnopqrstuvz FHIJLVYabefhjkloqv
+[2018-05-05][10:03:16] [INFO] [Stroopwafel] :elder.scoutlink.net 005 Stroopwafel AWAYLEN=200 CASEMAPPING=rfc1459 CHANMODES=Ibe,k,FHJLfjl,ABCDKMNOPQRSTcimnprstuz CHANNELLEN=64 CHANTYPES=#~ CHARSET=ascii ELIST=MU EXCEPTS=e EXTBAN=,ABCNOQRSTUcmrsz FNC INVEX=I KICKLEN=255 MAP :are supported by this server
+[2018-05-05][10:03:16] [INFO] [Stroopwafel] :elder.scoutlink.net 005 Stroopwafel MAXBANS=60 MAXCHANNELS=20 MAXPARA=32 MAXTARGETS=20 MODES=20 NAMESX NETWORK=ScoutLink NICKLEN=31 OPERLOG OVERRIDE PREFIX=(YqaohvV)!~&@%+- REMOVE SSL=[::]:6697 :are supported by this server
+[2018-05-05][10:03:16] [INFO] [Stroopwafel] :elder.scoutlink.net 005 Stroopwafel STARTTLS STATUSMSG=!~&@%+- TOPICLEN=307 USERIP VBANLIST WALLCHOPS WALLVOICES WATCH=32 :are supported by this server
+[2018-05-05][10:03:16] [INFO] [Stroopwafel] :elder.scoutlink.net 251 Stroopwafel :There are 76 users and 49 invisible on 10 servers
+[2018-05-05][10:03:16] [INFO] [Stroopwafel] :elder.scoutlink.net 252 Stroopwafel 25 :operator(s) online
+[2018-05-05][10:03:16] [INFO] [Stroopwafel] :elder.scoutlink.net 254 Stroopwafel 97 :channels formed
+[2018-05-05][10:03:16] [INFO] [Stroopwafel] :elder.scoutlink.net 255 Stroopwafel :I have 36 clients and 2 servers
+[2018-05-05][10:03:16] [INFO] [Stroopwafel] :elder.scoutlink.net 265 Stroopwafel :Current Local Users: 36  Max: 41
+[2018-05-05][10:03:16] [INFO] [Stroopwafel] :elder.scoutlink.net 266 Stroopwafel :Current Global Users: 125  Max: 153
+[2018-05-05][10:03:16] [INFO] [Stroopwafel] :elder.scoutlink.net 422 Stroopwafel :MOTD blocked by ZNC
+[2018-05-05][10:03:16] [INFO] [Stroopwafel:None] -!- Stroopwafel [~GwnYServ@b9e6b0.230010.2d33df.523f71] has joined
+[2018-05-05][10:03:16] [INFO] [Stroopwafel] :elder.scoutlink.net 332 Stroopwafel #testops :Welcome to #testops | This channel is managed by HaTT for operators to practice commands | Please do not change the topic or channel key | Please remove all modes/bans that you set when you leave | Please ask in #help if you have any issues
+[2018-05-05][10:03:16] [INFO] [Stroopwafel] :elder.scoutlink.net 333 Stroopwafel #testops GewoonYorick 1525124581
+[2018-05-05][10:03:16] [INFO] [Stroopwafel] :elder.scoutlink.net 353 Stroopwafel @ #testops :@ChanServ @GewoonYorick @Stroopwafel @java @java2 @patate
+[2018-05-05][10:03:16] [INFO] [Stroopwafel] :elder.scoutlink.net 366 Stroopwafel #testops :End of /NAMES list.
+[2018-05-05][10:03:16] [INFO] [Stroopwafel:None] -!- Stroopwafel [~GwnYServ@b9e6b0.230010.2d33df.523f71] has joined
+[2018-05-05][10:03:16] [INFO] [Stroopwafel] :elder.scoutlink.net 332 Stroopwafel #test :Welcome to #test
+[2018-05-05][10:03:16] [INFO] [Stroopwafel] :elder.scoutlink.net 333 Stroopwafel #test Sheldor 1463648671
+[2018-05-05][10:03:16] [INFO] [Stroopwafel] :elder.scoutlink.net 353 Stroopwafel = #test :Arjo @ChanServ Debug GewoonYorick Morpheus Sciuro Stroopwafel TheOmega java lillelykke
+[2018-05-05][10:03:16] [INFO] [Stroopwafel] :elder.scoutlink.net 366 Stroopwafel #test :End of /NAMES list.
+[2018-05-05][10:03:16] [INFO] [Stroopwafel:None] -!- Stroopwafel [~GwnYServ@b9e6b0.230010.2d33df.523f71] has joined
+[2018-05-05][10:03:16] [INFO] [Stroopwafel] :elder.scoutlink.net 333 Stroopwafel #youth-team java 1525211629
+[2018-05-05][10:03:16] [INFO] [Stroopwafel] :elder.scoutlink.net 332 Stroopwafel #youth-team :#youth-team Youth Team channel | If you need a team member please mention here not in #youth
+[2018-05-05][10:03:16] [INFO] [Stroopwafel] :elder.scoutlink.net 353 Stroopwafel @ #youth-team :~Arjo @ChanServ &GewoonYorick %Gforce %Gregor %Isaskar_ Stroopwafel ~floepa &java
+[2018-05-05][10:03:16] [INFO] [Stroopwafel] :elder.scoutlink.net 366 Stroopwafel #youth-team :End of /NAMES list.
+[2018-05-05][10:03:16] [INFO] [Stroopwafel:*status] -*status- ---------------------------------------------------
+[2018-05-05][10:03:16] [INFO] [Stroopwafel:*status] -*status- |                                                 |
+[2018-05-05][10:03:16] [INFO] [Stroopwafel:*status] -*status- |   Welcome! You're now connected to the server!  |
+[2018-05-05][10:03:16] [INFO] [Stroopwafel:*status] -*status- |                                                 |
+[2018-05-05][10:03:16] [INFO] [Stroopwafel:*status] -*status- ---------------------------------------------------
+[2018-05-05][10:03:16] [INFO] [Stroopwafel:*status] -*status- ---------------------------------------------------
+[2018-05-05][10:03:16] [INFO] [Stroopwafel:*status] -*status- |                                                 |
+[2018-05-05][10:03:16] [INFO] [Stroopwafel:*status] -*status- |                 Server information!             |
+[2018-05-05][10:03:16] [INFO] [Stroopwafel:*status] -*status- |_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _|
+[2018-05-05][10:03:16] [INFO] [Stroopwafel:*status] -*status- |                                                 |
+[2018-05-05][10:03:16] [INFO] [Stroopwafel:*status] -*status- |     Webpanel:    http://znc.gewoonyorick.nl     |
+[2018-05-05][10:03:16] [INFO] [Stroopwafel:*status] -*status- |     Webchat:     http://webchat.gewoonyorick.nl |
+[2018-05-05][10:03:16] [INFO] [Stroopwafel:*status] -*status- |                                                 |
+[2018-05-05][10:03:16] [INFO] [Stroopwafel:*status] -*status- |                                                 |
+[2018-05-05][10:03:16] [INFO] [Stroopwafel:*status] -*status- ---------------------------------------------------
+[2018-05-05][10:03:16] [INFO] [Stroopwafel:*status] -*status- ---------------------------------------------------
+[2018-05-05][10:03:16] [INFO] [Stroopwafel:*status] -*status- |           Advanced Server information!          |
+[2018-05-05][10:03:16] [INFO] [Stroopwafel:*status] -*status- |_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _|
+[2018-05-05][10:03:17] [INFO] [Stroopwafel:*status] -*status- |     SSL port: 6697                              |
+[2018-05-05][10:03:17] [INFO] [Stroopwafel:*status] -*status- |     Hostname: znc.gewoonyorick.nl               |
+[2018-05-05][10:03:17] [INFO] [Stroopwafel:*status] -*status- |     Ports: 6667, 7778                           |
+[2018-05-05][10:03:17] [INFO] [Stroopwafel:*status] -*status- |                                                 |
+[2018-05-05][10:03:17] [INFO] [Stroopwafel:*status] -*status- |     WebPanel port: 8080                         |
+[2018-05-05][10:03:17] [INFO] [Stroopwafel:*status] -*status- |                                                 |
+[2018-05-05][10:03:17] [INFO] [Stroopwafel:*status] -*status- ---------------------------------------------------
+[2018-05-05][10:03:17] [INFO] [Stroopwafel:*status] -*status- ---------------------------------------------------
+[2018-05-05][10:03:17] [INFO] [Stroopwafel:*status] -*status- |                                                 |
+[2018-05-05][10:03:17] [INFO] [Stroopwafel:*status] -*status- |       For Feature Request PM GewoonYorick       |
+[2018-05-05][10:03:17] [INFO] [Stroopwafel:*status] -*status- |                                                 |
+[2018-05-05][10:03:17] [INFO] [Stroopwafel:*status] -*status- ---------------------------------------------------
+[2018-05-05][10:03:17] [INFO] [Stroopwafel] >> JOIN :#testops
+[2018-05-05][10:03:17] [INFO] [Stroopwafel|misc] Bot has finished sending join commands for network.
+[2018-05-05][10:03:35] [INFO] [Stroopwafel:#test] <GewoonYorick> .info
+[2018-05-05][10:03:35] [ERROR] Error in hook basics:mycmd
+Traceback (most recent call last):
+  File "/home/yorick/stroopwafel/cloudbot/plugin.py", line 376, in _execute_hook
+    out = yield from self.bot.loop.run_in_executor(None, self._execute_hook_threaded, hook, event)
+  File "/usr/lib/python3.5/asyncio/futures.py", line 361, in __iter__
+    yield self  # This tells Task to wait for completion.
+  File "/usr/lib/python3.5/asyncio/tasks.py", line 296, in _wakeup
+    future.result()
+  File "/usr/lib/python3.5/asyncio/futures.py", line 274, in result
+    raise self._exception
+  File "/usr/lib/python3.5/concurrent/futures/thread.py", line 55, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/home/yorick/stroopwafel/cloudbot/plugin.py", line 340, in _execute_hook_threaded
+    return hook.function(*parameters)
+  File "/home/yorick/stroopwafel/plugins/basics.py", line 16, in mycmd
+    message(infomsg)
+  File "/home/yorick/stroopwafel/cloudbot/event.py", line 236, in message
+    self.conn.message(target, message)
+  File "/home/yorick/stroopwafel/cloudbot/clients/irc.py", line 155, in message
+    text = "".join(text.splitlines())
+AttributeError: 'list' object has no attribute 'splitlines'
+[2018-05-05][10:04:07] [INFO] [Stroopwafel|permissions] Allowed user GewoonYorick!~GwnYServ@user.scoutlink.net access to botcontrol
+[2018-05-05][10:04:07] [INFO] [Stroopwafel:#test] <GewoonYorick> .restart
+[2018-05-05][10:04:07] [INFO] Stopping bot.
+[2018-05-05][10:04:08] [INFO] [Stroopwafel] >> QUIT
+[2018-05-05][10:04:08] [INFO] [Stroopwafel:#testops] -!- Stroopwafel [~GwnYServ@b9e6b0.230010.2d33df.523f71] has left (#testops)
+[2018-05-05][10:04:08] [INFO] [Stroopwafel:#test] -!- Stroopwafel [~GwnYServ@b9e6b0.230010.2d33df.523f71] has left (#test)
+[2018-05-05][10:04:08] [INFO] [Stroopwafel:#youth-team] -!- Stroopwafel [~GwnYServ@b9e6b0.230010.2d33df.523f71] has left (#youth-team)
+[2018-05-05][10:04:10] [INFO] Restarting Bot
+[2018-05-05][10:04:10] [INFO] Starting CloudBot.
+[2018-05-05][10:04:10] [INFO] [Stroopwafel|permissions] Created permission manager for Stroopwafel.
+[2018-05-05][10:04:10] [INFO] [Stroopwafel|permissions] Reloading permissions for Stroopwafel.
+[2018-05-05][10:04:10] [INFO] Loaded command unquiet from admin_channel.py
+[2018-05-05][10:04:10] [INFO] Loaded command ban from admin_channel.py
+[2018-05-05][10:04:10] [INFO] Loaded command topic from admin_channel.py
+[2018-05-05][10:04:10] [INFO] Loaded command unban from admin_channel.py
+[2018-05-05][10:04:10] [INFO] Loaded command kick from admin_channel.py
+[2018-05-05][10:04:10] [INFO] Loaded command mute from admin_channel.py
+[2018-05-05][10:04:10] [INFO] Loaded command unmute from admin_channel.py
+[2018-05-05][10:04:10] [INFO] Loaded command unlock from admin_channel.py
+[2018-05-05][10:04:10] [INFO] Loaded command deop from admin_channel.py
+[2018-05-05][10:04:10] [INFO] Loaded command devoice from admin_channel.py
+[2018-05-05][10:04:10] [INFO] Loaded command op from admin_channel.py
+[2018-05-05][10:04:10] [INFO] Loaded command lock from admin_channel.py
+[2018-05-05][10:04:10] [INFO] Loaded command remove from admin_channel.py
+[2018-05-05][10:04:10] [INFO] Loaded command quiet from admin_channel.py
+[2018-05-05][10:04:10] [INFO] Loaded command voice from admin_channel.py
+[2018-05-05][10:04:10] [INFO] Loaded command ping from ping.py
+[2018-05-05][10:04:10] [INFO] Loaded command info/information/botinfo from basics.py
+[2018-05-05][10:04:10] [INFO] Loaded command help/bothelp from basics.py
+[2018-05-05][10:04:10] [INFO] Registering tables for quote
+[2018-05-05][10:04:10] [INFO] Loaded event ctcp_version (EventType.other) from core_ctcp.py
+[2018-05-05][10:04:10] [INFO] Loaded event ctcp_time (EventType.other) from core_ctcp.py
+[2018-05-05][10:04:10] [INFO] Loaded event ctcp_ping (EventType.other) from core_ctcp.py
+[2018-05-05][10:04:10] [INFO] Loaded command seen from history.py
+[2018-05-05][10:04:10] [INFO] Loaded command resethistory from history.py
+[2018-05-05][10:04:10] [INFO] Loaded event chat_tracker (EventType.action,EventType.message) from history.py
+[2018-05-05][10:04:11] [INFO] Loaded command about from system.py
+[2018-05-05][10:04:11] [INFO] Loaded command system from system.py
+[2018-05-05][10:04:11] [INFO] Loaded irc raw keep_alive (004) from core_misc.py
+[2018-05-05][10:04:11] [INFO] Loaded irc raw invite (INVITE) from core_misc.py
+[2018-05-05][10:04:11] [INFO] Loaded irc raw onjoin (004) from core_misc.py
+[2018-05-05][10:04:11] [INFO] Registering tables for ignore
+[2018-05-05][10:04:11] [INFO] Loaded command message/sayto from admin_bot.py
+[2018-05-05][10:04:11] [INFO] Loaded command raw from admin_bot.py
+[2018-05-05][10:04:11] [INFO] Loaded command adduser from admin_bot.py
+[2018-05-05][10:04:11] [INFO] Loaded command uperms from admin_bot.py
+[2018-05-05][10:04:11] [INFO] Loaded command part from admin_bot.py
+[2018-05-05][10:04:11] [INFO] Loaded command cycle from admin_bot.py
+[2018-05-05][10:04:11] [INFO] Loaded command ugroups from admin_bot.py
+[2018-05-05][10:04:11] [INFO] Loaded command stop/quit from admin_bot.py
+[2018-05-05][10:04:11] [INFO] Loaded command say from admin_bot.py
+[2018-05-05][10:04:11] [INFO] Loaded command groups/listgroups/permgroups from admin_bot.py
+[2018-05-05][10:04:11] [INFO] Loaded command gusers from admin_bot.py
+[2018-05-05][10:04:11] [INFO] Loaded command me/act from admin_bot.py
+[2018-05-05][10:04:11] [INFO] Loaded command gperms from admin_bot.py
+[2018-05-05][10:04:11] [INFO] Loaded command deluser from admin_bot.py
+[2018-05-05][10:04:11] [INFO] Loaded command nick from admin_bot.py
+[2018-05-05][10:04:11] [INFO] Loaded command join from admin_bot.py
+[2018-05-05][10:04:11] [INFO] Loaded command restart from admin_bot.py
+[2018-05-05][10:04:11] [INFO] Loaded irc raw init_tasks (004) from core_sieve.py
+[2018-05-05][10:04:11] [INFO] Loaded sieve sieve_suite from core_sieve.py
+[2018-05-05][10:04:11] [INFO] Loaded command whois from whois.py
+[2018-05-05][10:04:11] [INFO] Loaded irc raw on_join (PART) from core_tracker.py
+[2018-05-05][10:04:11] [INFO] Loaded irc raw on_nick (NICK) from core_tracker.py
+[2018-05-05][10:04:11] [INFO] Loaded irc raw on_kick (KICK) from core_tracker.py
+[2018-05-05][10:04:11] [INFO] Loaded command flushlog from log.py
+[2018-05-05][10:04:11] [INFO] Loaded irc raw log (*) from log.py
+[2018-05-05][10:04:11] [INFO] Loaded irc raw log_raw (*) from log.py
+[2018-05-05][10:04:11] [INFO] Loaded irc raw console_log (*) from log.py
+[2018-05-05][10:04:11] [INFO] Loaded command 8ball/8/eightball from eightball.py
+[2018-05-05][10:04:11] [INFO] Loaded command potato from foods.py
+[2018-05-05][10:04:11] [INFO] Loaded command cookie from foods.py
+[2018-05-05][10:04:11] [INFO] Loaded command cake from foods.py
+[2018-05-05][10:04:11] [INFO] Loaded command taco from foods.py
+[2018-05-05][10:04:11] [INFO] Loaded command sandwich from foods.py
+[2018-05-05][10:04:11] [INFO] Loaded command biscuit from foods.py
+[2018-05-05][10:04:11] [INFO] Loaded command q/quote from quote.py
+[2018-05-05][10:04:11] [INFO] Loaded command leet from utility.py
+[2018-05-05][10:04:11] [INFO] Loaded command rainbow from utility.py
+[2018-05-05][10:04:11] [INFO] Loaded command base64 from utility.py
+[2018-05-05][10:04:11] [INFO] Loaded command isbase64/checkbase64 from utility.py
+[2018-05-05][10:04:11] [INFO] Loaded command hash from utility.py
+[2018-05-05][10:04:11] [INFO] Loaded command superscript from utility.py
+[2018-05-05][10:04:11] [INFO] Loaded command munge from utility.py
+[2018-05-05][10:04:11] [INFO] Loaded command color_parse from utility.py
+[2018-05-05][10:04:11] [INFO] Loaded command swapcase from utility.py
+[2018-05-05][10:04:11] [INFO] Loaded command unescape from utility.py
+[2018-05-05][10:04:11] [INFO] Loaded command derpify from utility.py
+[2018-05-05][10:04:11] [INFO] Loaded command wrainbow from utility.py
+[2018-05-05][10:04:11] [INFO] Loaded command qrcode/qr from utility.py
+[2018-05-05][10:04:11] [INFO] Loaded command capitalize/capitalise from utility.py
+[2018-05-05][10:04:11] [INFO] Loaded command upper from utility.py
+[2018-05-05][10:04:11] [INFO] Loaded command escape from utility.py
+[2018-05-05][10:04:11] [INFO] Loaded command length from utility.py
+[2018-05-05][10:04:11] [INFO] Loaded command debase64/unbase64 from utility.py
+[2018-05-05][10:04:11] [INFO] Loaded command usa from utility.py
+[2018-05-05][10:04:11] [INFO] Loaded command titlecase from utility.py
+[2018-05-05][10:04:11] [INFO] Loaded command lower from utility.py
+[2018-05-05][10:04:11] [INFO] Loaded command reverse from utility.py
+[2018-05-05][10:04:11] [INFO] Loaded command rot13 from utility.py
+[2018-05-05][10:04:11] [INFO] Loaded command unignore from ignore.py
+[2018-05-05][10:04:11] [INFO] Loaded command global_ignore from ignore.py
+[2018-05-05][10:04:11] [INFO] Loaded command ignore from ignore.py
+[2018-05-05][10:04:11] [INFO] Loaded command global_unignore from ignore.py
+[2018-05-05][10:04:11] [INFO] Loaded sieve ignore_sieve from ignore.py
+[2018-05-05][10:04:11] [INFO] [Stroopwafel] Connecting
+[2018-05-05][10:04:11] [INFO] [Stroopwafel] >> PASS :stroopwafel/scoutlink:thatbotpassword
+[2018-05-05][10:04:11] [INFO] [Stroopwafel] >> NICK :Stroopwafel
+[2018-05-05][10:04:11] [INFO] [Stroopwafel] >> USER GwnYServ 3 * :CloudBot - https://git.io/CloudBot
+[2018-05-05][10:04:11] [INFO] [Stroopwafel|misc] Bot is sending join commands for network.
+[2018-05-05][10:04:11] [INFO] [Stroopwafel] :elder.scoutlink.net 001 Stroopwafel :Welcome to the ScoutLink IRC Network Stroopwafel!~GwnYServ@35.204.13.186
+[2018-05-05][10:04:11] [INFO] [Stroopwafel] :elder.scoutlink.net 002 Stroopwafel :Your host is elder.scoutlink.net, running version InspIRCd-2.0
+[2018-05-05][10:04:11] [INFO] [Stroopwafel|misc] Bot is joining channels for network.
+[2018-05-05][10:04:11] [INFO] [Stroopwafel] :elder.scoutlink.net 003 Stroopwafel :This server was created 00:28:23 Aug 19 2017
+[2018-05-05][10:04:11] [INFO] [Stroopwafel] :elder.scoutlink.net 004 Stroopwafel elder.scoutlink.net InspIRCd-2.0 BHIRSWchikorswx ABCDFHIJKLMNOPQRSTVYabcefhijklmnopqrstuvz FHIJLVYabefhjkloqv
+[2018-05-05][10:04:11] [INFO] [Stroopwafel|sieve] Bot is starting ratelimiter cleanup task.
+[2018-05-05][10:04:11] [INFO] [Stroopwafel] >> JOIN #test
+[2018-05-05][10:04:11] [INFO] [Stroopwafel] :elder.scoutlink.net 005 Stroopwafel AWAYLEN=200 CASEMAPPING=rfc1459 CHANMODES=Ibe,k,FHJLfjl,ABCDKMNOPQRSTcimnprstuz CHANNELLEN=64 CHANTYPES=#~ CHARSET=ascii ELIST=MU EXCEPTS=e EXTBAN=,ABCNOQRSTUcmrsz FNC INVEX=I KICKLEN=255 MAP :are supported by this server
+[2018-05-05][10:04:11] [INFO] [Stroopwafel] :elder.scoutlink.net 005 Stroopwafel MAXBANS=60 MAXCHANNELS=20 MAXPARA=32 MAXTARGETS=20 MODES=20 NAMESX NETWORK=ScoutLink NICKLEN=31 OPERLOG OVERRIDE PREFIX=(YqaohvV)!~&@%+- REMOVE SSL=[::]:6697 :are supported by this server
+[2018-05-05][10:04:11] [INFO] [Stroopwafel] :elder.scoutlink.net 005 Stroopwafel STARTTLS STATUSMSG=!~&@%+- TOPICLEN=307 USERIP VBANLIST WALLCHOPS WALLVOICES WATCH=32 :are supported by this server
+[2018-05-05][10:04:11] [INFO] [Stroopwafel] :elder.scoutlink.net 252 Stroopwafel 25 :operator(s) online
+[2018-05-05][10:04:11] [INFO] [Stroopwafel] :elder.scoutlink.net 251 Stroopwafel :There are 76 users and 49 invisible on 10 servers
+[2018-05-05][10:04:11] [INFO] [Stroopwafel] :elder.scoutlink.net 254 Stroopwafel 97 :channels formed
+[2018-05-05][10:04:11] [INFO] [Stroopwafel] :elder.scoutlink.net 255 Stroopwafel :I have 36 clients and 2 servers
+[2018-05-05][10:04:11] [INFO] [Stroopwafel] :elder.scoutlink.net 265 Stroopwafel :Current Local Users: 36  Max: 41
+[2018-05-05][10:04:11] [INFO] [Stroopwafel] :elder.scoutlink.net 266 Stroopwafel :Current Global Users: 125  Max: 153
+[2018-05-05][10:04:11] [INFO] [Stroopwafel] :elder.scoutlink.net 422 Stroopwafel :MOTD blocked by ZNC
+[2018-05-05][10:04:11] [INFO] [Stroopwafel] :elder.scoutlink.net 332 Stroopwafel #testops :Welcome to #testops | This channel is managed by HaTT for operators to practice commands | Please do not change the topic or channel key | Please remove all modes/bans that you set when you leave | Please ask in #help if you have any issues
+[2018-05-05][10:04:11] [INFO] [Stroopwafel:None] -!- Stroopwafel [~GwnYServ@b9e6b0.230010.2d33df.523f71] has joined
+[2018-05-05][10:04:11] [INFO] [Stroopwafel] :elder.scoutlink.net 333 Stroopwafel #testops GewoonYorick 1525124581
+[2018-05-05][10:04:11] [INFO] [Stroopwafel] :elder.scoutlink.net 353 Stroopwafel @ #testops :@ChanServ @GewoonYorick @Stroopwafel @java @java2 @patate
+[2018-05-05][10:04:11] [INFO] [Stroopwafel] :elder.scoutlink.net 366 Stroopwafel #testops :End of /NAMES list.
+[2018-05-05][10:04:11] [INFO] [Stroopwafel:None] -!- Stroopwafel [~GwnYServ@b9e6b0.230010.2d33df.523f71] has joined
+[2018-05-05][10:04:11] [INFO] [Stroopwafel] :elder.scoutlink.net 332 Stroopwafel #test :Welcome to #test
+[2018-05-05][10:04:11] [INFO] [Stroopwafel] :elder.scoutlink.net 333 Stroopwafel #test Sheldor 1463648671
+[2018-05-05][10:04:11] [INFO] [Stroopwafel] :elder.scoutlink.net 353 Stroopwafel = #test :Arjo @ChanServ Debug GewoonYorick Morpheus Sciuro Stroopwafel TheOmega java lillelykke
+[2018-05-05][10:04:11] [INFO] [Stroopwafel] :elder.scoutlink.net 366 Stroopwafel #test :End of /NAMES list.
+[2018-05-05][10:04:11] [INFO] [Stroopwafel:None] -!- Stroopwafel [~GwnYServ@b9e6b0.230010.2d33df.523f71] has joined
+[2018-05-05][10:04:11] [INFO] [Stroopwafel] :elder.scoutlink.net 332 Stroopwafel #youth-team :#youth-team Youth Team channel | If you need a team member please mention here not in #youth
+[2018-05-05][10:04:11] [INFO] [Stroopwafel] :elder.scoutlink.net 333 Stroopwafel #youth-team java 1525211629
+[2018-05-05][10:04:11] [INFO] [Stroopwafel] :elder.scoutlink.net 353 Stroopwafel @ #youth-team :~Arjo @ChanServ &GewoonYorick %Gforce %Gregor %Isaskar_ Stroopwafel ~floepa &java
+[2018-05-05][10:04:11] [INFO] [Stroopwafel] :elder.scoutlink.net 366 Stroopwafel #youth-team :End of /NAMES list.
+[2018-05-05][10:04:11] [INFO] [Stroopwafel:*status] -*status- ---------------------------------------------------
+[2018-05-05][10:04:11] [INFO] [Stroopwafel:*status] -*status- |                                                 |
+[2018-05-05][10:04:11] [INFO] [Stroopwafel:*status] -*status- |   Welcome! You're now connected to the server!  |
+[2018-05-05][10:04:11] [INFO] [Stroopwafel:*status] -*status- |                                                 |
+[2018-05-05][10:04:11] [INFO] [Stroopwafel:*status] -*status- ---------------------------------------------------
+[2018-05-05][10:04:11] [INFO] [Stroopwafel:*status] -*status- ---------------------------------------------------
+[2018-05-05][10:04:11] [INFO] [Stroopwafel:*status] -*status- |_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _|
+[2018-05-05][10:04:11] [INFO] [Stroopwafel:*status] -*status- |     Webpanel:    http://znc.gewoonyorick.nl     |
+[2018-05-05][10:04:11] [INFO] [Stroopwafel:*status] -*status- |                                                 |
+[2018-05-05][10:04:11] [INFO] [Stroopwafel:*status] -*status- |                                                 |
+[2018-05-05][10:04:11] [INFO] [Stroopwafel:*status] -*status- |     Webchat:     http://webchat.gewoonyorick.nl |
+[2018-05-05][10:04:11] [INFO] [Stroopwafel:*status] -*status- |                 Server information!             |
+[2018-05-05][10:04:11] [INFO] [Stroopwafel:*status] -*status- ---------------------------------------------------
+[2018-05-05][10:04:11] [INFO] [Stroopwafel:*status] -*status- ---------------------------------------------------
+[2018-05-05][10:04:11] [INFO] [Stroopwafel:*status] -*status- |                                                 |
+[2018-05-05][10:04:11] [INFO] [Stroopwafel:*status] -*status- |                                                 |
+[2018-05-05][10:04:11] [INFO] [Stroopwafel:*status] -*status- |           Advanced Server information!          |
+[2018-05-05][10:04:11] [INFO] [Stroopwafel:*status] -*status- |_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _|
+[2018-05-05][10:04:11] [INFO] [Stroopwafel:*status] -*status- |     Ports: 6667, 7778                           |
+[2018-05-05][10:04:11] [INFO] [Stroopwafel:*status] -*status- |                                                 |
+[2018-05-05][10:04:11] [INFO] [Stroopwafel:*status] -*status- ---------------------------------------------------
+[2018-05-05][10:04:12] [INFO] [Stroopwafel:*status] -*status- ---------------------------------------------------
+[2018-05-05][10:04:12] [INFO] [Stroopwafel:*status] -*status- |                                                 |
+[2018-05-05][10:04:11] [INFO] [Stroopwafel:*status] -*status- |     Hostname: znc.gewoonyorick.nl               |
+[2018-05-05][10:04:11] [INFO] [Stroopwafel:*status] -*status- |                                                 |
+[2018-05-05][10:04:12] [INFO] [Stroopwafel:*status] -*status- |                                                 |
+[2018-05-05][10:04:11] [INFO] [Stroopwafel:*status] -*status- |     WebPanel port: 8080                         |
+[2018-05-05][10:04:12] [INFO] [Stroopwafel:*status] -*status- |       For Feature Request PM GewoonYorick       |
+[2018-05-05][10:04:11] [INFO] [Stroopwafel:*status] -*status- |     SSL port: 6697                              |
+[2018-05-05][10:04:12] [INFO] [Stroopwafel:*status] -*status- ---------------------------------------------------
+[2018-05-05][10:04:12] [INFO] [Stroopwafel] >> JOIN :#testops
+[2018-05-05][10:04:12] [INFO] [Stroopwafel|misc] Bot has finished sending join commands for network.
+[2018-05-05][10:04:14] [INFO] [Stroopwafel:#test] <GewoonYorick> .info
+[2018-05-05][10:04:14] [INFO] [Stroopwafel] >> PRIVMSG #test :Youth Bot - This bot it managed by Youth Team
+[2018-05-05][10:04:20] [INFO] [Stroopwafel:#test] <GewoonYorick> .help
+[2018-05-05][10:04:20] [INFO] [Stroopwafel] >> PRIVMSG #test :Commands you may use (wil be added later)
+[2018-05-05][10:04:57] [INFO] [Stroopwafel:#test] <GewoonYorick> m'm better if it responds in pm
