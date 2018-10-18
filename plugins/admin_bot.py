@@ -227,7 +227,7 @@ def restart(text, bot):
 
 @asyncio.coroutine
 @hook.command(permissions=["botcontrol"])
-def join(text, conn, notice):
+def bjoin(text, conn, notice):
     """<channel> - joins <channel>
     :type text: str
     :type conn: cloudbot.client.Client
@@ -241,7 +241,7 @@ def join(text, conn, notice):
 
 @asyncio.coroutine
 @hook.command(permissions=["botcontrol"], autohelp=False)
-def part(text, conn, chan, notice):
+def bpart(text, conn, chan, notice):
     """[#channel] - parts [#channel], or the caller's channel if no channel is specified
     :type text: str
     :type conn: cloudbot.client.Client
@@ -280,7 +280,7 @@ def cycle(text, conn, chan, notice):
 
 @asyncio.coroutine
 @hook.command(permissions=["botcontrol"])
-def nick(text, conn, notice):
+def bnick(text, conn, notice):
     """<nick> - changes my nickname to <nick>
     :type text: str
     :type conn: cloudbot.client.Client
