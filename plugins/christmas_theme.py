@@ -73,6 +73,6 @@ def hug(text, action):
         return "I can't give hugs to that user."
 
     hug = random.choice(['hug', 'cuddle'])
-    type = random.choice(['friendly ', 'tight ', '', 'long', 'super'])
+    type = random.choice(['friendly ', 'tight ', '', 'long ', 'super '])
 
     action("gives a {}{} to {}!".format(type, hug, user))
