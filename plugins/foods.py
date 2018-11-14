@@ -184,3 +184,10 @@ def taco(text, action):
 
     # act out the message
     action(generator.generate_string())
+
+
+@asyncio.coroutine
+@hook.command
+def menu(text, action):
+    """shows menu"""
+    
